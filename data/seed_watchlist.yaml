@@ -1,0 +1,285 @@
+# Seed watchlist: companies checked directly on every run (when `seed_watchlist: true`).
+# Every entry was verified live against its job-board API on 2026-09-18.
+# Run `uv run jobradar validate-watchlist` to find entries that have since moved or died.
+# Known gaps: Goldman Sachs (higher.gs.com), Bank of America, Evercore, Lazard, Jefferies, KKR, McKinsey,
+# BCG, Bain, Deloitte, EY and KPMG run career sites Job Radar can't read yet. Cover them with
+# Handshake/LinkedIn alerts (gmail_alerts) or the GitHub lists.
+
+# --- Finance, trading & investing (23)
+- {name: a16z, ats: greenhouse, slug: a16z}
+- {name: "Akuna Capital", ats: greenhouse, slug: akunacapital}
+- {name: AQR, ats: greenhouse, slug: aqr}
+- {name: Battery, ats: greenhouse, slug: batteryventures}
+- {name: Dimensional, ats: ashby, slug: dimensional}
+- {name: ExodusPoint, ats: greenhouse, slug: exoduspoint}
+- {name: "Flow Traders", ats: greenhouse, slug: flowtraders}
+- {name: "General Atlantic", ats: greenhouse, slug: generalatlantic}
+- {name: IMC, ats: greenhouse, slug: imc}
+- {name: "Insight Partners", ats: ashby, slug: insight-partners}
+- {name: "Jane Street", ats: greenhouse, slug: janestreet}
+- {name: "Jump Trading", ats: greenhouse, slug: jumptrading}
+- {name: Lightspeed, ats: ashby, slug: lightspeed}
+- {name: "Lincoln International", ats: greenhouse, slug: lincolninternational}
+- {name: LionTree, ats: greenhouse, slug: liontree}
+- {name: "Man Group", ats: greenhouse, slug: mangroup}
+- {name: Point72, ats: greenhouse, slug: point72}
+- {name: Schonfeld, ats: greenhouse, slug: schonfeld}
+- {name: Sequoia, ats: ashby, slug: sequoia}
+- {name: "StepStone Group", ats: greenhouse, slug: stepstone}
+- {name: "Tower Research Capital", ats: greenhouse, slug: towerresearchcapital}
+- {name: "Virtu Financial", ats: greenhouse, slug: virtu}
+- {name: "William Blair", ats: greenhouse, slug: williamblair}
+
+# --- Fintech (70)
+- {name: Acorns, ats: ashby, slug: acorns}
+- {name: Affirm, ats: greenhouse, slug: affirm}
+- {name: Airwallex, ats: ashby, slug: airwallex}
+- {name: Alloy, ats: greenhouse, slug: alloy}
+- {name: Alpaca, ats: greenhouse, slug: alpaca}
+- {name: AngelList, ats: lever, slug: angellist}
+- {name: Arch, ats: ashby, slug: arch}
+- {name: Atomic, ats: ashby, slug: atomic}
+- {name: Betterment, ats: greenhouse, slug: betterment}
+- {name: Blend, ats: greenhouse, slug: blend}
+- {name: Branch, ats: greenhouse, slug: branch}
+- {name: Brex, ats: greenhouse, slug: brex}
+- {name: Brigit, ats: ashby, slug: brigit}
+- {name: Campfire, ats: ashby, slug: campfire}
+- {name: Carta, ats: greenhouse, slug: carta}
+- {name: "Chime Financial, Inc", ats: greenhouse, slug: chime}
+- {name: Circle, ats: ashby, slug: circle}
+- {name: "Clear Street", ats: greenhouse, slug: clearstreet}
+- {name: Coinbase, ats: greenhouse, slug: coinbase}
+- {name: Column, ats: ashby, slug: column}
+- {name: Cube, ats: ashby, slug: cube}
+- {name: Current, ats: greenhouse, slug: current}
+- {name: Dave, ats: ashby, slug: dave}
+- {name: EarnIn, ats: greenhouse, slug: earnin}
+- {name: Expensify, ats: ashby, slug: expensify}
+- {name: "Figure Lending", ats: greenhouse, slug: figure}
+- {name: Fireblocks, ats: greenhouse, slug: fireblocks}
+- {name: Found, ats: greenhouse, slug: found}
+- {name: Fundrise, ats: lever, slug: fundrise}
+- {name: Gemini, ats: greenhouse, slug: gemini}
+- {name: "Gusto, Inc.", ats: greenhouse, slug: gusto}
+- {name: Highnote, ats: greenhouse, slug: highnote}
+- {name: "Juniper Square", ats: ashby, slug: junipersquare}
+- {name: Ladder, ats: ashby, slug: ladder}
+- {name: Lemonade, ats: ashby, slug: lemonade}
+- {name: Lithic, ats: greenhouse, slug: lithic}
+- {name: Melio, ats: greenhouse, slug: melio}
+- {name: Mercury, ats: greenhouse, slug: mercury}
+- {name: Middesk, ats: ashby, slug: middesk}
+- {name: "Modern Treasury", ats: ashby, slug: moderntreasury}
+- {name: "Monarch Money", ats: ashby, slug: monarchmoney}
+- {name: Mosaic, ats: ashby, slug: mosaic}
+- {name: Novo, ats: ashby, slug: novo}
+- {name: Nubank, ats: ashby, slug: nubank}
+- {name: Numeric, ats: ashby, slug: numeric}
+- {name: Orum, ats: ashby, slug: orum}
+- {name: Paxos, ats: ashby, slug: paxos}
+- {name: Payoneer, ats: greenhouse, slug: payoneer}
+- {name: Persona, ats: ashby, slug: persona}
+- {name: Pigment, ats: lever, slug: pigment}
+- {name: Plaid, ats: ashby, slug: plaid}
+- {name: Public, ats: greenhouse, slug: public}
+- {name: Ramp, ats: ashby, slug: ramp}
+- {name: Relay, ats: ashby, slug: relay}
+- {name: Rho, ats: ashby, slug: rho}
+- {name: Rillet, ats: ashby, slug: rillet}
+- {name: Ripple, ats: greenhouse, slug: ripple}
+- {name: Robinhood, ats: greenhouse, slug: robinhood}
+- {name: Runway, ats: ashby, slug: runway}
+- {name: Sardine, ats: ashby, slug: sardine}
+- {name: Socure, ats: ashby, slug: socure}
+- {name: SoFi, ats: greenhouse, slug: sofi}
+- {name: "Standard Metrics", ats: greenhouse, slug: standardmetrics}
+- {name: Stripe, ats: greenhouse, slug: stripe}
+- {name: Titan, ats: ashby, slug: titan}
+- {name: Toast, ats: greenhouse, slug: toast}
+- {name: Unit, ats: ashby, slug: unit}
+- {name: Upstart, ats: greenhouse, slug: upstart}
+- {name: Wealthfront, ats: lever, slug: wealthfront}
+- {name: "Wise Worksite Field Sales", ats: greenhouse, slug: wise}
+
+# --- Startups (108)
+- {name: 1Password, ats: ashby, slug: 1password}
+- {name: Abridge, ats: ashby, slug: abridge}
+- {name: Aceable, ats: greenhouse, slug: aceable}
+- {name: Airbnb, ats: greenhouse, slug: airbnb}
+- {name: Airtable, ats: greenhouse, slug: airtable}
+- {name: Amplitude, ats: greenhouse, slug: amplitude}
+- {name: Anthropic, ats: greenhouse, slug: anthropic}
+- {name: Apptronik, ats: greenhouse, slug: apptronik}
+- {name: Arcadia, ats: lever, slug: arcadia}
+- {name: "Arrive Logistics", ats: greenhouse, slug: arrivelogistics}
+- {name: Asana, ats: greenhouse, slug: asana}
+- {name: Ashby, ats: ashby, slug: ashby}
+- {name: Attentive, ats: greenhouse, slug: attentive}
+- {name: "Aurora Solar", ats: ashby, slug: aurorasolar}
+- {name: "Base Power", ats: ashby, slug: base-power}
+- {name: Bazaarvoice, ats: lever, slug: bazaarvoice}
+- {name: Benchling, ats: ashby, slug: benchling}
+- {name: Braze, ats: greenhouse, slug: braze}
+- {name: Calendly, ats: greenhouse, slug: calendly}
+- {name: Calm.com, ats: greenhouse, slug: calm}
+- {name: Cedar, ats: ashby, slug: cedar}
+- {name: Checkr, ats: greenhouse, slug: checkr}
+- {name: ClickUp, ats: ashby, slug: clickup}
+- {name: Cloudflare, ats: greenhouse, slug: cloudflare}
+- {name: Commure, ats: ashby, slug: commure}
+- {name: Crusoe, ats: ashby, slug: crusoe}
+- {name: "Culture Amp", ats: greenhouse, slug: cultureamp}
+- {name: Cursor, ats: ashby, slug: cursor}
+- {name: Customer.io, ats: greenhouse, slug: customerio}
+- {name: Databricks, ats: greenhouse, slug: databricks}
+- {name: Datadog, ats: greenhouse, slug: datadog}
+- {name: Decagon, ats: ashby, slug: decagon}
+- {name: Descript, ats: greenhouse, slug: descript}
+- {name: Discord, ats: greenhouse, slug: discord}
+- {name: Drata, ats: ashby, slug: drata}
+- {name: Dropbox, ats: greenhouse, slug: dropbox}
+- {name: Duolingo, ats: greenhouse, slug: duolingo}
+- {name: ElevenLabs, ats: ashby, slug: elevenlabs}
+- {name: Everlywell, ats: lever, slug: everlywell}
+- {name: Faire, ats: greenhouse, slug: faire}
+- {name: Figma, ats: greenhouse, slug: figma}
+- {name: Fivetran, ats: greenhouse, slug: fivetran}
+- {name: Flexport, ats: greenhouse, slug: flexport}
+- {name: Gamma, ats: ashby, slug: gamma}
+- {name: Glossier, ats: greenhouse, slug: glossier}
+- {name: Gopuff, ats: lever, slug: gopuff}
+- {name: Gorgias, ats: ashby, slug: gorgias}
+- {name: Greenhouse, ats: greenhouse, slug: greenhouse}
+- {name: Harvey, ats: ashby, slug: harvey}
+- {name: Headway, ats: ashby, slug: headway}
+- {name: Hightouch, ats: greenhouse, slug: hightouch}
+- {name: "Hims & Hers", ats: ashby, slug: hims-and-hers}
+- {name: "Hinge Health", ats: ashby, slug: hinge-health}
+- {name: Homeward, ats: greenhouse, slug: homeward}
+- {name: "Included Health", ats: lever, slug: includedhealth}
+- {name: Instacart, ats: greenhouse, slug: instacart}
+- {name: Iterable, ats: greenhouse, slug: iterable}
+- {name: Juro, ats: ashby, slug: juro}
+- {name: Klaviyo, ats: greenhouse, slug: klaviyo}
+- {name: Lattice, ats: greenhouse, slug: lattice}
+- {name: LaunchDarkly, ats: greenhouse, slug: launchdarkly}
+- {name: Linear, ats: ashby, slug: linear}
+- {name: "Liquid Death", ats: greenhouse, slug: liquiddeath}
+- {name: Literati, ats: ashby, slug: literati}
+- {name: Lyft, ats: greenhouse, slug: lyft}
+- {name: "Lyra Health", ats: lever, slug: lyrahealth}
+- {name: Metabase, ats: lever, slug: metabase}
+- {name: Miro, ats: ashby, slug: miro}
+- {name: Mixpanel, ats: greenhouse, slug: mixpanel}
+- {name: "Nomi Health", ats: lever, slug: nomihealth}
+- {name: Notion, ats: ashby, slug: notion}
+- {name: Ontic, ats: ashby, slug: ontic}
+- {name: OpenAI, ats: ashby, slug: openai}
+- {name: Outreach, ats: lever, slug: outreach}
+- {name: Palantir, ats: lever, slug: palantir}
+- {name: "Palmetto Animal Hospital", ats: greenhouse, slug: palmetto}
+- {name: Peloton, ats: greenhouse, slug: peloton}
+- {name: Perplexity, ats: ashby, slug: perplexity}
+- {name: Pinterest, ats: greenhouse, slug: pinterest}
+- {name: Reddit, ats: greenhouse, slug: reddit}
+- {name: "Redwood Materials", ats: greenhouse, slug: redwoodmaterials}
+- {name: Rewind, ats: ashby, slug: rewind}
+- {name: Ro, ats: lever, slug: ro}
+- {name: Samsara, ats: greenhouse, slug: samsara}
+- {name: Saronic, ats: ashby, slug: saronic}
+- {name: "Scale AI", ats: greenhouse, slug: scaleai}
+- {name: Secureframe, ats: ashby, slug: secureframe}
+- {name: "Shield AI", ats: lever, slug: shieldai}
+- {name: Sierra, ats: ashby, slug: sierra}
+- {name: "Sigma Computing", ats: greenhouse, slug: sigmacomputing}
+- {name: Skydio, ats: ashby, slug: skydio}
+- {name: SpaceX, ats: greenhouse, slug: spacex}
+- {name: Spruce, ats: ashby, slug: spruce}
+- {name: Squarespace, ats: greenhouse, slug: squarespace}
+- {name: Strava, ats: ashby, slug: strava}
+- {name: Sword, ats: greenhouse, slug: swordhealth}
+- {name: Tines, ats: greenhouse, slug: tines}
+- {name: "Two Chairs", ats: greenhouse, slug: twochairs}
+- {name: Vanta, ats: ashby, slug: vanta}
+- {name: Vercel, ats: greenhouse, slug: vercel}
+- {name: Verkada, ats: greenhouse, slug: verkada}
+- {name: Webflow, ats: greenhouse, slug: webflow}
+- {name: Whoop, ats: ashby, slug: whoop}
+- {name: Writer, ats: ashby, slug: writer}
+- {name: Zapier, ats: ashby, slug: zapier}
+- {name: "ZenBusiness Inc.", ats: greenhouse, slug: zenbusiness}
+- {name: Zip, ats: ashby, slug: zip}
+- {name: Zocdoc, ats: greenhouse, slug: zocdoc}
+
+# --- Consulting & advisory (5)
+- {name: AlixPartners, ats: greenhouse, slug: alixpartners}
+- {name: "Charles River Associates", ats: greenhouse, slug: charlesriverassociates}
+- {name: "ClearView Healthcare Partners", ats: greenhouse, slug: clearviewhealthcarepartners}
+- {name: Pariveda, ats: ashby, slug: pariveda}
+- {name: "Point B", ats: lever, slug: pointb}
+
+# --- Banks, asset managers & payments (Workday) (33)
+- {name: Apollo, ats: workday, tenant: athene, wd: wd5, site: Apollo_Careers}
+- {name: BlackRock, ats: workday, tenant: blackrock, wd: wd1, site: BlackRock_Professional}
+- {name: Blackstone, ats: workday, tenant: blackstone, wd: wd1, site: Blackstone_Careers}
+- {name: "Capital One", ats: workday, tenant: capitalone, wd: wd12, site: Capital_One}
+- {name: Carlyle, ats: workday, tenant: carlyle, wd: wd1, site: carlyle}
+- {name: Citi, ats: workday, tenant: citi, wd: wd5, site: 2}
+- {name: "CME Group", ats: workday, tenant: cmegroup, wd: wd1, site: cme_careers}
+- {name: "Fidelity Investments", ats: workday, tenant: fmr, wd: wd1, site: FidelityCareers}
+- {name: FIS, ats: workday, tenant: fis, wd: wd5, site: SearchJobs}
+- {name: Fiserv, ats: workday, tenant: fiserv, wd: wd5, site: EXT}
+- {name: "Frost Bank", ats: workday, tenant: frostbank, wd: wd5, site: External}
+- {name: "Global Payments", ats: workday, tenant: tsys, wd: wd1, site: TSYS}
+- {name: "Houlihan Lokey", ats: workday, tenant: hl, wd: wd1, site: Campus}
+- {name: Invesco, ats: workday, tenant: invesco, wd: wd1, site: IVZ}
+- {name: Mastercard, ats: workday, tenant: mastercard, wd: wd1, site: CorporateCareers}
+- {name: Morningstar, ats: workday, tenant: morningstar, wd: wd5, site: Americas}
+- {name: Nasdaq, ats: workday, tenant: nasdaq, wd: wd1, site: Global_External_Site}
+- {name: "Northern Trust", ats: workday, tenant: ntrs, wd: wd1, site: northerntrust}
+- {name: PayPal, ats: workday, tenant: paypal, wd: wd1, site: jobs}
+- {name: PNC, ats: workday, tenant: pnc, wd: wd5, site: External}
+- {name: Prudential, ats: workday, tenant: pru, wd: wd5, site: Careers}
+- {name: "Raymond James", ats: workday, tenant: raymondjames, wd: wd1, site: RaymondJamesCareers}
+- {name: "S&P Global", ats: workday, tenant: spgi, wd: wd5, site: SPGI_Careers}
+- {name: "State Street", ats: workday, tenant: statestreet, wd: wd1, site: Global}
+- {name: Synchrony, ats: workday, tenant: synchronyfinancial, wd: wd5, site: careers}
+- {name: "T. Rowe Price", ats: workday, tenant: troweprice, wd: wd5, site: TRowePrice}
+- {name: TIAA, ats: workday, tenant: tiaa, wd: wd1, site: Search}
+- {name: Truist, ats: workday, tenant: truist, wd: wd1, site: Careers}
+- {name: "U.S. Bank", ats: workday, tenant: usbank, wd: wd1, site: US_Bank_Careers}
+- {name: USAA, ats: workday, tenant: usaa, wd: wd1, site: USAAJOBSWD}
+- {name: Vanguard, ats: workday, tenant: vanguard, wd: wd5, site: vanguard_external}
+- {name: Visa, ats: workday, tenant: visa, wd: wd5, site: Visa}
+- {name: "Wells Fargo", ats: workday, tenant: wf, wd: wd1, site: WellsFargoJobs}
+
+# --- Consulting & accounting (Workday) (7)
+- {name: Accenture, ats: workday, tenant: accenture, wd: wd103, site: AccentureCareers}
+- {name: BDO, ats: workday, tenant: bdo, wd: wd3, site: BDO}
+- {name: "Booz Allen", ats: workday, tenant: bah, wd: wd1, site: BAH_Jobs}
+- {name: Guidehouse, ats: workday, tenant: guidehouse, wd: wd1, site: External}
+- {name: "Marsh McLennan (Oliver Wyman, Mercer)", ats: workday, tenant: mmc, wd: wd1, site: MMC}
+- {name: PwC, ats: workday, tenant: pwc, wd: wd3, site: Global_Experienced_Careers}
+- {name: RSM, ats: workday, tenant: rsm, wd: wd1, site: RSMCareers}
+
+# --- Large companies with finance & strategy programs (Workday) (15)
+- {name: Adobe, ats: workday, tenant: adobe, wd: wd5, site: external_experienced}
+- {name: "AT&T", ats: workday, tenant: att, wd: wd1, site: ATTGeneral}
+- {name: Chevron, ats: workday, tenant: chevron, wd: wd5, site: jobs}
+- {name: Cisco, ats: workday, tenant: cisco, wd: wd5, site: Cisco_Careers}
+- {name: Disney, ats: workday, tenant: disney, wd: wd5, site: disneycareer}
+- {name: "Home Depot", ats: workday, tenant: homedepot, wd: wd5, site: CareerDepot}
+- {name: HPE, ats: workday, tenant: hpe, wd: wd5, site: Jobsathpe}
+- {name: Intel, ats: workday, tenant: intel, wd: wd1, site: External}
+- {name: Kimberly-Clark, ats: workday, tenant: kimberlyclark, wd: wd1, site: GLOBAL}
+- {name: McKesson, ats: workday, tenant: mckesson, wd: wd3, site: External_Careers}
+- {name: NVIDIA, ats: workday, tenant: nvidia, wd: wd5, site: NVIDIAExternalCareerSite}
+- {name: Salesforce, ats: workday, tenant: salesforce, wd: wd12, site: External_Career_Site}
+- {name: "Southwest Airlines", ats: workday, tenant: swa, wd: wd1, site: external}
+- {name: Target, ats: workday, tenant: target, wd: wd5, site: targetcareers}
+- {name: Workday, ats: workday, tenant: workday, wd: wd5, site: Workday}
+
+# --- Banks on other career platforms (2)
+- {name: "JPMorgan Chase", ats: oracle, host: jpmc.fa.oraclecloud.com, site: CX_1001}
+- {name: "Morgan Stanley", ats: eightfold, host: morganstanley.eightfold.ai, domain: morganstanley.com}

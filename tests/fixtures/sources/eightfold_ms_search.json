@@ -1,0 +1,1122 @@
+{
+ "status": 200,
+ "error": {
+  "message": "",
+  "body": ""
+ },
+ "data": {
+  "positions": [
+   {
+    "id": 549799904954,
+    "displayJobId": "JR042790",
+    "name": "Parametric - Investment Analyst Cohort, SUMMER 2027",
+    "locations": [
+     "Seattle, Washington, United States of America"
+    ],
+    "standardizedLocations": [
+     "Seattle, WA, US"
+    ],
+    "postedTs": 1788825600,
+    "solrScore": null,
+    "stars": 0,
+    "department": "Operations & Admin",
+    "creationTs": 1788220800,
+    "isHot": 0,
+    "workLocationOption": "onsite",
+    "locationFlexibility": null,
+    "atsJobId": "JR042790",
+    "positionUrl": "/careers/job/549799904954"
+   },
+   {
+    "id": 549800174740,
+    "displayJobId": "JR043248",
+    "name": "Parametric - Operations Analyst Cohort, Summer 2027 Grads",
+    "locations": [
+     "Boston, Massachusetts, United States of America",
+     "Alpharetta, Georgia, United States of America",
+     "Minneapolis, Minnesota, United States of America"
+    ],
+    "standardizedLocations": [
+     "Boston, MA, US",
+     "Alpharetta, GA, US",
+     "Minneapolis, MN, US"
+    ],
+    "postedTs": 1788998400,
+    "solrScore": null,
+    "stars": 0,
+    "department": "Operations & Admin",
+    "creationTs": 1788739200,
+    "isHot": 0,
+    "workLocationOption": "onsite",
+    "locationFlexibility": null,
+    "atsJobId": "JR043248",
+    "positionUrl": "/careers/job/549800174740"
+   },
+   {
+    "id": 549797798679,
+    "displayJobId": "JR037465",
+    "name": "Equity Research Analyst, Research",
+    "locations": [
+     "Tokyo, Japan"
+    ],
+    "standardizedLocations": [
+     "Tokyo,JP"
+    ],
+    "postedTs": 1780531200,
+    "solrScore": null,
+    "stars": 0,
+    "department": "Research",
+    "creationTs": 1779148800,
+    "isHot": 0,
+    "workLocationOption": "onsite",
+    "locationFlexibility": null,
+    "atsJobId": "JR037465",
+    "positionUrl": "/careers/job/549797798679"
+   },
+   {
+    "id": 549799115162,
+    "displayJobId": "JR040654",
+    "name": "Equity Research Analyst, Personal Care Products Coverage, Research",
+    "locations": [
+     "Tokyo, Japan"
+    ],
+    "standardizedLocations": [
+     "Tokyo,JP"
+    ],
+    "postedTs": 1784764800,
+    "solrScore": null,
+    "stars": 0,
+    "department": "Research-Analyst",
+    "creationTs": 1784073600,
+    "isHot": 0,
+    "workLocationOption": "onsite",
+    "locationFlexibility": null,
+    "atsJobId": "JR040654",
+    "positionUrl": "/careers/job/549799115162"
+   }
+  ],
+  "filterDef": {
+   "facets": {
+    "locations": [
+     [
+      "Remote",
+      999999
+     ],
+     [
+      "New York, NY, United States",
+      298
+     ],
+     [
+      "NY, United States",
+      95
+     ],
+     [
+      "Mumbai, MH, India",
+      90
+     ],
+     [
+      "Dallas, TX, United States",
+      76
+     ],
+     [
+      "Alpharetta, GA, United States",
+      69
+     ],
+     [
+      "Hong Kong",
+      61
+     ],
+     [
+      "Budapest, Hungary",
+      50
+     ],
+     [
+      "Boston, MA, United States",
+      45
+     ],
+     [
+      "Baltimore, MD, United States",
+      40
+     ],
+     [
+      "Tokyo, Japan",
+      39
+     ]
+    ]
+   },
+   "smartFilters": [
+    {
+     "type": "multi_select",
+     "filterName": "businessarea",
+     "title": "Business Area",
+     "options": [
+      {
+       "label": "Wealth Management",
+       "value": "wealth management"
+      },
+      {
+       "label": "Technology",
+       "value": "technology"
+      },
+      {
+       "label": "Sales And Trading",
+       "value": "sales and trading"
+      },
+      {
+       "label": "Legal And Compliance",
+       "value": "legal and compliance"
+      },
+      {
+       "label": "Investment Management",
+       "value": "investment management"
+      },
+      {
+       "label": "Finance",
+       "value": "finance"
+      },
+      {
+       "label": "Operations",
+       "value": "operations"
+      },
+      {
+       "label": "Human Resources",
+       "value": "human resources"
+      },
+      {
+       "label": "Investment Banking",
+       "value": "investment banking"
+      },
+      {
+       "label": "Administration",
+       "value": "administration"
+      },
+      {
+       "label": "Internal Audit",
+       "value": "internal audit"
+      },
+      {
+       "label": "Research",
+       "value": "research"
+      },
+      {
+       "label": "Institutional Securities",
+       "value": "institutional securities"
+      },
+      {
+       "label": "Global Capital Markets",
+       "value": "global capital markets"
+      },
+      {
+       "label": "Risk Management",
+       "value": "risk management"
+      },
+      {
+       "label": "Company Management",
+       "value": "company management"
+      },
+      {
+       "label": "Wealth Management & Im Shared Services",
+       "value": "wealth management & im shared services"
+      }
+     ],
+     "tooltip": null,
+     "extraData": {},
+     "displayCount": 100,
+     "translateOptions": false,
+     "allowFreeText": false
+    },
+    {
+     "type": "multi_select",
+     "filterName": "employmenttype",
+     "title": "Employment Type",
+     "options": [
+      {
+       "label": "Full Time",
+       "value": "full time"
+      },
+      {
+       "label": "Part Time",
+       "value": "part time"
+      }
+     ],
+     "tooltip": null,
+     "extraData": {},
+     "displayCount": 10,
+     "translateOptions": false,
+     "allowFreeText": false
+    },
+    {
+     "type": "multi_select",
+     "filterName": "city",
+     "title": "City",
+     "options": [
+      {
+       "label": "New York",
+       "value": "New York"
+      },
+      {
+       "label": "Mumbai",
+       "value": "Mumbai"
+      },
+      {
+       "label": "Dallas",
+       "value": "Dallas"
+      },
+      {
+       "label": "Purchase",
+       "value": "Purchase"
+      },
+      {
+       "label": "Hong Kong",
+       "value": "Hong Kong"
+      },
+      {
+       "label": "Budapest",
+       "value": "Budapest"
+      },
+      {
+       "label": "Alpharetta",
+       "value": "Alpharetta"
+      },
+      {
+       "label": "Tokyo",
+       "value": "Tokyo"
+      },
+      {
+       "label": "London",
+       "value": "London"
+      },
+      {
+       "label": "Montreal",
+       "value": "Montreal"
+      },
+      {
+       "label": "Baltimore",
+       "value": "Baltimore"
+      },
+      {
+       "label": "Boston",
+       "value": "Boston"
+      },
+      {
+       "label": "Glasgow",
+       "value": "Glasgow"
+      },
+      {
+       "label": "Seattle",
+       "value": "Seattle"
+      },
+      {
+       "label": "Atlanta",
+       "value": "Atlanta"
+      },
+      {
+       "label": "San Francisco",
+       "value": "San Francisco"
+      },
+      {
+       "label": "Sandy",
+       "value": "Sandy"
+      },
+      {
+       "label": "Singapore",
+       "value": "Singapore"
+      },
+      {
+       "label": "Bengaluru",
+       "value": "Bengaluru"
+      },
+      {
+       "label": "Chicago",
+       "value": "Chicago"
+      },
+      {
+       "label": "Washington",
+       "value": "Washington"
+      },
+      {
+       "label": "Houston",
+       "value": "Houston"
+      },
+      {
+       "label": "West Conshohocken",
+       "value": "West Conshohocken"
+      },
+      {
+       "label": "Gilbert",
+       "value": "Gilbert"
+      },
+      {
+       "label": "Pasadena",
+       "value": "Pasadena"
+      },
+      {
+       "label": "Tampa",
+       "value": "Tampa"
+      },
+      {
+       "label": "Columbus",
+       "value": "Columbus"
+      },
+      {
+       "label": "Fort Lauderdale",
+       "value": "Fort Lauderdale"
+      },
+      {
+       "label": "Los Angeles",
+       "value": "Los Angeles"
+      },
+      {
+       "label": "Menlo Park",
+       "value": "Menlo Park"
+      },
+      {
+       "label": "Minneapolis",
+       "value": "Minneapolis"
+      },
+      {
+       "label": "Morristown",
+       "value": "Morristown"
+      },
+      {
+       "label": "South Jordan",
+       "value": "South Jordan"
+      },
+      {
+       "label": "Calgary",
+       "value": "Calgary"
+      },
+      {
+       "label": "Cincinnati",
+       "value": "Cincinnati"
+      },
+      {
+       "label": "Garden City",
+       "value": "Garden City"
+      },
+      {
+       "label": "Indianapolis",
+       "value": "Indianapolis"
+      },
+      {
+       "label": "Oak Brook",
+       "value": "Oak Brook"
+      },
+      {
+       "label": "Scottsdale",
+       "value": "Scottsdale"
+      },
+      {
+       "label": "Tempe",
+       "value": "Tempe"
+      },
+      {
+       "label": "West Palm Beach",
+       "value": "West Palm Beach"
+      },
+      {
+       "label": "Birmingham",
+       "value": "Birmingham"
+      },
+      {
+       "label": "Charlotte",
+       "value": "Charlotte"
+      },
+      {
+       "label": "Frankfurt",
+       "value": "Frankfurt"
+      },
+      {
+       "label": "Miami Beach",
+       "value": "Miami Beach"
+      },
+      {
+       "label": "Newport Beach",
+       "value": "Newport Beach"
+      },
+      {
+       "label": "Palo Alto",
+       "value": "Palo Alto"
+      },
+      {
+       "label": "Paramus",
+       "value": "Paramus"
+      },
+      {
+       "label": "Paris",
+       "value": "Paris"
+      },
+      {
+       "label": "Shrewsbury",
+       "value": "Shrewsbury"
+      },
+      {
+       "label": "Toronto",
+       "value": "Toronto"
+      },
+      {
+       "label": "Boca Raton",
+       "value": "Boca Raton"
+      },
+      {
+       "label": "Colchester",
+       "value": "Colchester"
+      },
+      {
+       "label": "Colorado Springs",
+       "value": "Colorado Springs"
+      },
+      {
+       "label": "Denver",
+       "value": "Denver"
+      },
+      {
+       "label": "Mclean",
+       "value": "Mclean"
+      },
+      {
+       "label": "Miami",
+       "value": "Miami"
+      },
+      {
+       "label": "Middleton",
+       "value": "Middleton"
+      },
+      {
+       "label": "New Orleans",
+       "value": "New Orleans"
+      },
+      {
+       "label": "Newtown Square",
+       "value": "Newtown Square"
+      },
+      {
+       "label": "Pittsburgh",
+       "value": "Pittsburgh"
+      },
+      {
+       "label": "Rochester",
+       "value": "Rochester"
+      },
+      {
+       "label": "San Mateo",
+       "value": "San Mateo"
+      },
+      {
+       "label": "Sao Paulo",
+       "value": "Sao Paulo"
+      },
+      {
+       "label": "Sarasota",
+       "value": "Sarasota"
+      },
+      {
+       "label": "Sydney",
+       "value": "Sydney"
+      },
+      {
+       "label": "Taipei",
+       "value": "Taipei"
+      },
+      {
+       "label": "Tulsa",
+       "value": "Tulsa"
+      },
+      {
+       "label": "Aventura",
+       "value": "Aventura"
+      },
+      {
+       "label": "Beverly Hills",
+       "value": "Beverly Hills"
+      },
+      {
+       "label": "Chesterfield",
+       "value": "Chesterfield"
+      },
+      {
+       "label": "Cupertino",
+       "value": "Cupertino"
+      },
+      {
+       "label": "Farmington Hills",
+       "value": "Farmington Hills"
+      },
+      {
+       "label": "Glens Falls",
+       "value": "Glens Falls"
+      },
+      {
+       "label": "Greenwood Village",
+       "value": "Greenwood Village"
+      },
+      {
+       "label": "Irvine",
+       "value": "Irvine"
+      },
+      {
+       "label": "Kansas City",
+       "value": "Kansas City"
+      },
+      {
+       "label": "Knoxville",
+       "value": "Knoxville"
+      },
+      {
+       "label": "Laguna Niguel",
+       "value": "Laguna Niguel"
+      },
+      {
+       "label": "Long Beach",
+       "value": "Long Beach"
+      },
+      {
+       "label": "Louisville",
+       "value": "Louisville"
+      },
+      {
+       "label": "Milwaukee",
+       "value": "Milwaukee"
+      },
+      {
+       "label": "Napa",
+       "value": "Napa"
+      },
+      {
+       "label": "Oakland",
+       "value": "Oakland"
+      },
+      {
+       "label": "Osaka",
+       "value": "Osaka"
+      },
+      {
+       "label": "Oxnard",
+       "value": "Oxnard"
+      },
+      {
+       "label": "Ponte Vedra Beach",
+       "value": "Ponte Vedra Beach"
+      },
+      {
+       "label": "Portland",
+       "value": "Portland"
+      },
+      {
+       "label": "Red Bank",
+       "value": "Red Bank"
+      },
+      {
+       "label": "Roanoke",
+       "value": "Roanoke"
+      },
+      {
+       "label": "Salt Lake City",
+       "value": "Salt Lake City"
+      },
+      {
+       "label": "San Antonio",
+       "value": "San Antonio"
+      },
+      {
+       "label": "San Jose",
+       "value": "San Jose"
+      },
+      {
+       "label": "Santa Barbara",
+       "value": "Santa Barbara"
+      },
+      {
+       "label": "Santa Monica",
+       "value": "Santa Monica"
+      },
+      {
+       "label": "Scotts Valley",
+       "value": "Scotts Valley"
+      },
+      {
+       "label": "Syracuse",
+       "value": "Syracuse"
+      },
+      {
+       "label": "Tacoma",
+       "value": "Tacoma"
+      },
+      {
+       "label": "Toms River",
+       "value": "Toms River"
+      },
+      {
+       "label": "West Des Moines",
+       "value": "West Des Moines"
+      },
+      {
+       "label": "Worcester",
+       "value": "Worcester"
+      },
+      {
+       "label": "Alexandria",
+       "value": "Alexandria"
+      },
+      {
+       "label": "Allentown",
+       "value": "Allentown"
+      },
+      {
+       "label": "Amsterdam",
+       "value": "Amsterdam"
+      },
+      {
+       "label": "Anchorage",
+       "value": "Anchorage"
+      },
+      {
+       "label": "Appleton",
+       "value": "Appleton"
+      },
+      {
+       "label": "Austin",
+       "value": "Austin"
+      },
+      {
+       "label": "Baton Rouge",
+       "value": "Baton Rouge"
+      },
+      {
+       "label": "Bellevue",
+       "value": "Bellevue"
+      },
+      {
+       "label": "Bethesda",
+       "value": "Bethesda"
+      },
+      {
+       "label": "Billings",
+       "value": "Billings"
+      },
+      {
+       "label": "Bloomington",
+       "value": "Bloomington"
+      },
+      {
+       "label": "Boulder",
+       "value": "Boulder"
+      },
+      {
+       "label": "Bowling Green",
+       "value": "Bowling Green"
+      },
+      {
+       "label": "Bradenton",
+       "value": "Bradenton"
+      },
+      {
+       "label": "Carlsbad",
+       "value": "Carlsbad"
+      },
+      {
+       "label": "Charleston",
+       "value": "Charleston"
+      },
+      {
+       "label": "Charlottesville",
+       "value": "Charlottesville"
+      },
+      {
+       "label": "Clayton",
+       "value": "Clayton"
+      },
+      {
+       "label": "Cleveland",
+       "value": "Cleveland"
+      },
+      {
+       "label": "Coral Gables",
+       "value": "Coral Gables"
+      },
+      {
+       "label": "Dublin",
+       "value": "Dublin"
+      },
+      {
+       "label": "Duncan",
+       "value": "Duncan"
+      },
+      {
+       "label": "Frederick",
+       "value": "Frederick"
+      },
+      {
+       "label": "Fresno",
+       "value": "Fresno"
+      },
+      {
+       "label": "Greenville",
+       "value": "Greenville"
+      },
+      {
+       "label": "Greenwich",
+       "value": "Greenwich"
+      },
+      {
+       "label": "Grosse Pointe",
+       "value": "Grosse Pointe"
+      },
+      {
+       "label": "Hagerstown",
+       "value": "Hagerstown"
+      },
+      {
+       "label": "Honolulu",
+       "value": "Honolulu"
+      },
+      {
+       "label": "Jackson",
+       "value": "Jackson"
+      },
+      {
+       "label": "Jacksonville",
+       "value": "Jacksonville"
+      },
+      {
+       "label": "Jersey City",
+       "value": "Jersey City"
+      },
+      {
+       "label": "Kahului",
+       "value": "Kahului"
+      },
+      {
+       "label": "Kalamazoo",
+       "value": "Kalamazoo"
+      },
+      {
+       "label": "Kingsport",
+       "value": "Kingsport"
+      },
+      {
+       "label": "Kirkland",
+       "value": "Kirkland"
+      },
+      {
+       "label": "Lafayette",
+       "value": "Lafayette"
+      },
+      {
+       "label": "Lake Oswego",
+       "value": "Lake Oswego"
+      },
+      {
+       "label": "Las Vegas",
+       "value": "Las Vegas"
+      },
+      {
+       "label": "Latham",
+       "value": "Latham"
+      },
+      {
+       "label": "Leawood",
+       "value": "Leawood"
+      },
+      {
+       "label": "Lexington",
+       "value": "Lexington"
+      },
+      {
+       "label": "Los Gatos",
+       "value": "Los Gatos"
+      },
+      {
+       "label": "Mount Laurel",
+       "value": "Mount Laurel"
+      },
+      {
+       "label": "Naples",
+       "value": "Naples"
+      },
+      {
+       "label": "Nashville",
+       "value": "Nashville"
+      },
+      {
+       "label": "Newport",
+       "value": "Newport"
+      },
+      {
+       "label": "Northbrook",
+       "value": "Northbrook"
+      },
+      {
+       "label": "Northfield",
+       "value": "Northfield"
+      },
+      {
+       "label": "Oklahoma City",
+       "value": "Oklahoma City"
+      },
+      {
+       "label": "Omaha",
+       "value": "Omaha"
+      },
+      {
+       "label": "Palm Beach Gardens",
+       "value": "Palm Beach Gardens"
+      },
+      {
+       "label": "Pensacola",
+       "value": "Pensacola"
+      },
+      {
+       "label": "Pepper Pike",
+       "value": "Pepper Pike"
+      },
+      {
+       "label": "Plano",
+       "value": "Plano"
+      },
+      {
+       "label": "Pleasanton",
+       "value": "Pleasanton"
+      },
+      {
+       "label": "Potomac",
+       "value": "Potomac"
+      },
+      {
+       "label": "Raleigh",
+       "value": "Raleigh"
+      },
+      {
+       "label": "Riverside",
+       "value": "Riverside"
+      },
+      {
+       "label": "Rockville",
+       "value": "Rockville"
+      },
+      {
+       "label": "Sacramento",
+       "value": "Sacramento"
+      },
+      {
+       "label": "San Diego",
+       "value": "San Diego"
+      },
+      {
+       "label": "Springfield",
+       "value": "Springfield"
+      },
+      {
+       "label": "Tallahassee",
+       "value": "Tallahassee"
+      },
+      {
+       "label": "Tuscaloosa",
+       "value": "Tuscaloosa"
+      },
+      {
+       "label": "Utica",
+       "value": "Utica"
+      },
+      {
+       "label": "Virginia Beach",
+       "value": "Virginia Beach"
+      },
+      {
+       "label": "Wayzata",
+       "value": "Wayzata"
+      },
+      {
+       "label": "Wellesley",
+       "value": "Wellesley"
+      },
+      {
+       "label": "Westport",
+       "value": "Westport"
+      },
+      {
+       "label": "Wilkes Barre",
+       "value": "Wilkes Barre"
+      },
+      {
+       "label": "Williamsburg",
+       "value": "Williamsburg"
+      }
+     ],
+     "tooltip": null,
+     "extraData": {},
+     "displayCount": 1000,
+     "translateOptions": false,
+     "allowFreeText": false
+    }
+   ],
+   "allFilters": [
+    {
+     "type": "multi_select",
+     "filterName": "country",
+     "title": "Country",
+     "options": [
+      {
+       "label": "United States of America",
+       "value": "United States of America"
+      },
+      {
+       "label": "India",
+       "value": "India"
+      },
+      {
+       "label": "Hong Kong",
+       "value": "Hong Kong"
+      },
+      {
+       "label": "United Kingdom",
+       "value": "United Kingdom"
+      },
+      {
+       "label": "Hungary",
+       "value": "Hungary"
+      },
+      {
+       "label": "Canada",
+       "value": "Canada"
+      },
+      {
+       "label": "Japan",
+       "value": "Japan"
+      },
+      {
+       "label": "Singapore",
+       "value": "Singapore"
+      },
+      {
+       "label": "France",
+       "value": "France"
+      },
+      {
+       "label": "Germany",
+       "value": "Germany"
+      },
+      {
+       "label": "Australia",
+       "value": "Australia"
+      },
+      {
+       "label": "Brazil",
+       "value": "Brazil"
+      },
+      {
+       "label": "Taiwan",
+       "value": "Taiwan"
+      },
+      {
+       "label": "United Arab Emirates",
+       "value": "United Arab Emirates"
+      },
+      {
+       "label": "Ireland",
+       "value": "Ireland"
+      },
+      {
+       "label": "Netherlands",
+       "value": "Netherlands"
+      }
+     ],
+     "tooltip": null,
+     "extraData": {},
+     "displayCount": 100,
+     "translateOptions": false,
+     "allowFreeText": false
+    },
+    {
+     "type": "multi_select_suggest",
+     "filterName": "skills",
+     "title": "Skills",
+     "options": [
+      {
+       "label": "Teamwork",
+       "value": "Teamwork"
+      },
+      {
+       "label": "Microsoft Excel",
+       "value": "Microsoft Excel"
+      },
+      {
+       "label": "Finance",
+       "value": "Finance"
+      },
+      {
+       "label": "Reporting",
+       "value": "Reporting"
+      },
+      {
+       "label": "Financial Analysis",
+       "value": "Financial Analysis"
+      },
+      {
+       "label": "Wealth Management",
+       "value": "Wealth Management"
+      },
+      {
+       "label": "Security",
+       "value": "Security"
+      },
+      {
+       "label": "Financial Services",
+       "value": "Financial Services"
+      },
+      {
+       "label": "Compliance",
+       "value": "Compliance"
+      },
+      {
+       "label": "Equity Analysis",
+       "value": "Equity Analysis"
+      }
+     ],
+     "tooltip": null,
+     "extraData": {},
+     "displayCount": 10,
+     "translateOptions": false,
+     "allowFreeText": false
+    },
+    {
+     "type": "multi_select",
+     "filterName": "pcsjoblevel",
+     "title": "Job Level",
+     "options": [
+      {
+       "label": "Professional",
+       "value": "professional"
+      },
+      {
+       "label": "Vice President",
+       "value": "vice president"
+      },
+      {
+       "label": "Executive Director",
+       "value": "executive director"
+      }
+     ],
+     "tooltip": null,
+     "extraData": {},
+     "displayCount": 10,
+     "translateOptions": false,
+     "allowFreeText": false
+    }
+   ]
+  },
+  "count": 62,
+  "sortBy": "relevance",
+  "appliedFilters": {},
+  "debug": {},
+  "savedSearchMetadata": {
+   "savedSearchParamsHash": null,
+   "isSavedSearchActive": false
+  },
+  "resultsMetaData": {
+   "usedFuzzSearch": false,
+   "mocTitle": null
+  }
+ },
+ "metadata": null
+}

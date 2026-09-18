@@ -1,0 +1,115 @@
+# Job Radar config. Copy this file to config.yaml and edit it. It's the only file you need to touch.
+# Secrets (email password, API keys) go in GitHub repo secrets, never in this file.
+# Check your edits with:  uv run jobradar validate-config
+
+# --- Who you are --------------------------------------------------------------
+profile:
+  name: Kaustubh
+  # Where the digest goes. Leave blank to send it to the Gmail account in the SMTP_USER secret.
+  email_to:
+  school: UT Austin
+  majors: [Finance, MIS]
+  grad_year: 2029
+  class_standing: sophomore      # freshman | sophomore | junior | senior | graduate
+  degree: bachelors              # bachelors | masters | mba | phd  (drops MBA/PhD-only roles for undergrads)
+  # One paragraph in your own words. The optional Claude ranking step reads this.
+  blurb: >
+    Finance + MIS sophomore and startup founder. Wants hands-on roles at
+    early-stage startups, fintech, VC, and finance teams where interns own
+    real work. Interested in growth, GTM, ops, strategy and product.
+
+# --- What you want ------------------------------------------------------------
+# summer_internship | offcycle_internship (fall/spring/winter, co-ops) | part_time (in-school) | new_grad
+posting_types: [summer_internship, offcycle_internship, part_time]
+
+# Seasons you'd take. Postings with a different explicit season are dropped; postings with no
+# season stated are kept. Junior-summer (2028) finance recruiting opens during sophomore year,
+# so it's included here.
+seasons: [fall-2026, spring-2027, summer-2027, fall-2027, summer-2028, year-round]
+
+locations:
+  preferred: ["Austin, TX"]          # ranked highest
+  accepted: [remote_us, "Dallas, TX", "Houston, TX", "New York, NY", "San Francisco, CA", "Chicago, IL"]
+  # Part-time roles must also match one of these (a part-time job in Boston is no use mid-semester).
+  part_time_locations: ["Austin, TX", remote_us]
+  # Postings with no usable location ("Multiple Locations", blank): keep | drop
+  unknown: keep
+  # Other options: a state ("TX"), anywhere_us
+
+# A posting must match at least one family's keywords (title matches count most).
+# weight (0-1) boosts families you care about more. Keywords are whole-word matches;
+# short ALL-CAPS ones like VC or GTM are case-sensitive.
+role_families:
+  finance:     {weight: 1.0, keywords: [investment banking, private equity, venture capital, VC, corporate finance, FP&A, equity research, asset management, sales and trading, fintech, treasury, credit analyst, financial analyst, finance, investment, investments, capital markets, wealth management, summer analyst]}
+  startup_ops: {weight: 1.0, keywords: [business operations, bizops, strategy and operations, strategy & operations, chief of staff, founder's associate, founders associate, special projects, operations intern, operations analyst, strategy]}
+  growth_gtm:  {weight: 0.9, keywords: [growth, go-to-market, GTM, marketing analytics, partnerships, business development, sales strategy, revenue operations, RevOps, marketing]}
+  consulting:  {weight: 0.8, keywords: [consulting, consultant, strategy analyst, business analyst, advisory]}
+  pm:          {weight: 0.9, keywords: [product management, product manager, APM, product analyst, product operations]}
+
+# Titles containing any of these are dropped (whole words, case-insensitive).
+exclude_title_keywords: [software engineer, software engineering, software developer, SWE, firmware, hardware, PhD, senior, staff engineer, principal, nurse, clinical, machine learning engineer, data engineer, cybersecurity, actuarial, pharmacy]
+
+# --- Where to look ------------------------------------------------------------
+# ~260 companies (startups, fintechs, banks, funds, consulting firms) are checked by default;
+# see data/seed_watchlist.yaml. Set to false to use only your own list below.
+seed_watchlist: true
+
+# Your own companies, checked directly every run. Don't know the details? Run:
+#   uv run jobradar add-company https://careers.somecompany.com
+watchlist:
+  # - {name: Ramp,          ats: ashby,      slug: ramp}
+  # - {name: Mercury,       ats: greenhouse, slug: mercury}
+  # - {name: NVIDIA,        ats: workday,    tenant: nvidia, wd: wd5, site: NVIDIAExternalCareerSite}
+  # - {name: JPMorgan Chase, ats: oracle,    host: jpmc.fa.oraclecloud.com, site: CX_1001}
+  # - {name: Morgan Stanley, ats: eightfold, host: morganstanley.eightfold.ai, domain: morganstanley.com}
+
+# Crowd-maintained lists (SimplifyJobs format). These get renamed every cycle (Summer2027 → Summer2028);
+# `jobradar validate-config --online` warns when one disappears.
+github_lists:
+  - SimplifyJobs/Summer2027-Internships
+  - vanshb03/Summer2027-Internships
+
+sources:
+  # Tier 1: public job-board APIs. On by default.
+  greenhouse: true
+  lever: true
+  ashby: true
+  workday: true
+  smartrecruiters: true
+  workable: true
+  oracle: true
+  eightfold: true
+  github_lists: true
+
+  # Tier 2: OFF by default. These scrape LinkedIn/Indeed/Google, whose terms prohibit automated
+  # access. They break without warning and LinkedIn blocks GitHub's servers most days without a
+  # proxy (PROXY_URLS secret). Enabling them is your call. See README.
+  jobspy:
+    enabled: false
+    sites: [indeed, linkedin, google]
+    search_terms: ["finance intern", "business operations intern", "growth intern", "product management intern", "strategy intern", "venture capital intern"]
+    locations: ["Austin, TX", "United States"]
+    hours_old: 36          # minimum; automatically widens to cover weekends and missed runs
+    results_wanted: 25
+
+  # Tier 2: reads Handshake / LinkedIn job-alert emails from your Gmail (read-only).
+  # Needs the GMAIL_* secrets from scripts/gmail_oauth_setup.py. The time window is added automatically.
+  gmail_alerts:
+    enabled: false
+    query: 'from:(joinhandshake.com OR jobalerts-noreply@linkedin.com)'
+
+# --- Ranking ------------------------------------------------------------------
+ranking:
+  llm: true                    # only runs if the ANTHROPIC_API_KEY secret is set
+  model: claude-haiku-4-5
+  top_pick_threshold: 75       # score (0-100) needed to be a top pick
+  top_picks_max: 5
+  max_per_digest: 30           # the rest go to a CSV linked from the email
+  llm_max_postings: 150        # cost guard: only the top N by rule score go to the model
+  backfill_cap: 40
+
+# --- Email --------------------------------------------------------------------
+email:
+  provider: smtp               # smtp (Gmail app password) | resend
+  send_when_empty: mondays     # always | never | mondays (a short "still alive" note)
+  timezone: America/Chicago

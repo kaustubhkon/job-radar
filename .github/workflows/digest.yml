@@ -1,0 +1,68 @@
+name: Job Radar
+
+on:
+  schedule:
+    # 11:00 UTC = 6am Central in summer, 5am in winter. GitHub can start scheduled runs 15+ minutes
+    # late at busy times. Edit this one line to change when your digest arrives.
+    - cron: "0 11 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "run = normal digest · backfill = seed state + top 40 open roles · dry-run = no email, no state"
+        type: choice
+        options: [run, backfill, dry-run]
+        default: run
+
+permissions:
+  contents: write # commit seen.json and run logs to the `state` branch
+
+concurrency:
+  group: job-radar-state # two runs never race on seen.json
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Install
+        run: uv sync --frozen --all-extras --no-dev
+
+      - name: Check out state branch
+        run: scripts/state_branch.sh checkout
+
+      - name: Run
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_OAUTH_CLIENT_ID: ${{ secrets.GMAIL_OAUTH_CLIENT_ID }}
+          GMAIL_OAUTH_CLIENT_SECRET: ${{ secrets.GMAIL_OAUTH_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          PROXY_URLS: ${{ secrets.PROXY_URLS }}
+          MODE: ${{ inputs.mode || 'run' }}
+        run: |
+          case "$MODE" in
+            backfill) uv run --no-sync jobradar backfill --state-dir state ;;
+            dry-run)  uv run --no-sync jobradar run --dry-run --state-dir state --preview preview.html ;;
+            *)        uv run --no-sync jobradar run --state-dir state ;;
+          esac
+
+      - name: Save state
+        if: ${{ always() && (inputs.mode || 'run') != 'dry-run' }}
+        run: scripts/state_branch.sh push
+
+      - name: Upload preview
+        if: ${{ (inputs.mode || 'run') == 'dry-run' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview
+          path: preview.*

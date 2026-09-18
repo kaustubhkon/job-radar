@@ -1,0 +1,115 @@
+{
+ "jobs": [
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/mercury/jobs/6167549004",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 5206326004,
+   "location": {
+    "name": "New York, NY or San Francisco, CA"
+   },
+   "metadata": [
+    {
+     "id": 12493794004,
+     "name": "Hide on Mercury jobs page?",
+     "value": null,
+     "value_type": "single_select"
+    }
+   ],
+   "id": 6167549004,
+   "updated_at": "2026-09-02T13:18:02-04:00",
+   "requisition_id": "JR100917",
+   "title": "Account Executive",
+   "company_name": "Mercury",
+   "first_published": "2026-08-27T16:51:38-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;At Mercury, building our customer base has been a wild and exciting adventure—and we’re just getting started. As we continue to grow, we’re looking for a thoughtful, driven Account Executive to help more founders and business owners discover and thrive with Mercury.&lt;/p&gt;\n&lt;p&gt;Over the past two years, we&#39;ve significantly expanded our startup customer base. Now, we’re growing into new segments: eCommerce and New Verticals like Marketing Agencies, Consulting, Staffing, and more. Each of these industries has unique financial needs—and Mercury is uniquely built to serve them all.&lt;/p&gt;\n&lt;p&gt;As an Account Executive, you’ll work directly with founders, business owners, and finance teams to deeply understand their operational needs and guide them to the right financial tools. You’ll immerse yourself in their ecosystems and uncover pain points to help them build great businesses with Mercury.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Here are some things you&#39;ll do on the job:&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Own the end-to-end sales process—from initial outreach to close&lt;/li&gt;\n&lt;li&gt;Partner with our robust SDR team to build and nurture a strong outbound pipeline&lt;/li&gt;\n&lt;li&gt;Proactively identify new lead sources and learn about potential customers&lt;/li&gt;\n&lt;li&gt;Convert signups into enthusiastic, long-term Mercury champions&lt;/li&gt;\n&lt;li&gt;Manage a high volume of high-velocity sales cycles using internal tools&lt;/li&",
+   "departments": [
+    {
+     "id": 4061258004,
+     "name": "Sales & Partnerships",
+     "child_ids": [],
+     "parent_id": 4034565004
+    }
+   ],
+   "offices": [
+    {
+     "id": 4021462004,
+     "name": "Any Office or Remote",
+     "location": null,
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/mercury/jobs/6199479004",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 5219184004,
+   "location": {
+    "name": "San Francisco, CA, New York, NY, Portland, OR, or Remote within United States"
+   },
+   "metadata": [
+    {
+     "id": 12493794004,
+     "name": "Hide on Mercury jobs page?",
+     "value": null,
+     "value_type": "single_select"
+    }
+   ],
+   "id": 6199479004,
+   "updated_at": "2026-09-18T11:09:59-04:00",
+   "requisition_id": "JR100919",
+   "title": "Account Executive - Technology",
+   "company_name": "Mercury",
+   "first_published": "2026-09-18T11:09:59-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;At Mercury, building our customer base has been a wild and exciting adventure—and we’re just getting started. As we continue to grow, we’re looking for a thoughtful, driven Account Executive to help more founders, finance leaders, and business owners discover and thrive with Mercury.&lt;/p&gt;\n&lt;p&gt;Over the past two years, we&#39;ve significantly expanded our startup customer base and we’re continuing on that journey to support even more startups and teams on Mercury. In this role you’ll have the opportunity to work closely with founders and finance leaders helping them shape the future of their finance stack with Mercury at the center. You’ll uncover pain points tied to current operations, run point on complex evaluations with multiple-products, and simplify the migration process across their full-stack into Mercury.&lt;/p&gt;\n&lt;p&gt;As an Account Executive, you’ll work directly with founders, business owners, and finance teams to deeply understand their operational needs and guide them to the right financial tools. You’ll immerse yourself in their ecosystems and uncover pain points to help them build great businesses with Mercury.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Here are some things you&#39;ll do on the job:&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Run cold outbound-driven sales cycles to convert leads into long-term Mercury partners&lt;/li&gt;\n&lt;li&gt;Go deep to uncover business cases and pain that aren&#39;t obvious on the surface&lt;/li&gt;\n&lt;l",
+   "departments": [
+    {
+     "id": 4061258004,
+     "name": "Sales & Partnerships",
+     "child_ids": [],
+     "parent_id": 4034565004
+    }
+   ],
+   "offices": [
+    {
+     "id": 4021462004,
+     "name": "Any Office or Remote",
+     "location": null,
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  }
+ ],
+ "meta": {
+  "total": 64
+ }
+}

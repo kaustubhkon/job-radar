@@ -1,0 +1,48 @@
+{% if kind == "failure" %}
+Every source failed this run, so nothing was checked. Usually temporary; if it repeats, check the workflow logs.
+{% elif kind == "empty" %}
+Nothing new matched your filters since the last digest. Job Radar is running.
+{% elif kind == "backfill" %}
+Welcome to Job Radar. One-time backfill: the top {{ report.emailed }} of {{ total_matched }} currently open roles that match your profile.
+{% else %}
+{{ report.emailed + overflow }} new posting{{ "s" if (report.emailed + overflow) != 1 }} matched your profile.
+{% endif %}
+{% for note in report.notes %}
+! {{ note }}
+{% endfor %}
+{% if top %}
+
+TOP PICKS
+{% for p in top %}
+
+* {{ p.company }} — {{ p.title }} [{{ p.score|round|int }}]
+  {{ p.location_label() }}{% if posted(p) %} · {{ posted(p) }}{% endif %}{% if p.compensation %} · {{ p.compensation }}{% endif %}
+
+{% if p.reason %}
+  {{ p.reason }}
+{% endif %}
+  {{ p.url }}
+{% endfor %}
+{% endif %}
+{% for cat, rows in sections %}
+
+{{ cat|upper }}
+{% for p in rows %}
+- {{ p.title }} · {{ p.company }} · {{ p.location_label() }} [{{ p.score|round|int }}]
+  {{ p.url }}
+{% endfor %}
+{% endfor %}
+{% if overflow %}
+
++{{ overflow }} more{% if links.csv %}: {{ links.csv }}{% endif %}
+
+{% endif %}
+
+--
+{% for line in source_lines %}
+{{ line }}
+{% endfor %}
+{{ report.collected }} collected → {{ report.new }} new → {{ report.matched }} matched → {{ report.emailed }} emailed
+{% if links.config %}
+Edit config: {{ links.config }}
+{% endif %}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+/state/
+preview.html
+preview.txt
+.env
+client_secret*.json
+token.json
