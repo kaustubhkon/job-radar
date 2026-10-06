@@ -1,14 +1,14 @@
 {
 "version": 1,
-"last_successful_run_at": "2026-10-05T19:31:58.769443+00:00",
+"last_successful_run_at": "2026-10-06T17:03:58.869183+00:00",
 "source_ok": {
-"ashby": "2026-10-05T19:31:58.769443+00:00",
-"eightfold": "2026-10-05T19:31:58.769443+00:00",
-"github_lists": "2026-10-05T19:31:58.769443+00:00",
-"greenhouse": "2026-10-05T19:31:58.769443+00:00",
-"lever": "2026-10-05T19:31:58.769443+00:00",
-"oracle": "2026-10-05T19:31:58.769443+00:00",
-"workday": "2026-10-05T19:31:58.769443+00:00"
+"ashby": "2026-10-06T17:03:58.869183+00:00",
+"eightfold": "2026-10-06T17:03:58.869183+00:00",
+"github_lists": "2026-10-06T17:03:58.869183+00:00",
+"greenhouse": "2026-10-06T17:03:58.869183+00:00",
+"lever": "2026-10-06T17:03:58.869183+00:00",
+"oracle": "2026-10-06T17:03:58.869183+00:00",
+"workday": "2026-10-06T17:03:58.869183+00:00"
 },
 "entries": {
 "004c95afac5ae4a7": {
@@ -59,7 +59,7 @@
 "title": "Tax Operations Intern",
 "company": "Coinbase",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -80,7 +80,7 @@
 "title": "Corporate & Institutional Banking Undergraduate Intern – Commercial & Corporate Banking – Financials and Diversified Track",
 "company": "PNC",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -97,7 +97,7 @@
 "title": "Health Systems Optimization Intern - Summer 2027",
 "company": "McKesson",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -117,7 +117,7 @@
 "title": "Product Manager Intern - Summer 2027",
 "company": "Google",
 "fs": "2026-09-22",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -134,7 +134,7 @@
 "title": "Quantitative Research Summer Analyst Intern - Asset Management",
 "company": "JP Morgan Chase",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -151,7 +151,7 @@
 "title": "Crypto Operations Intern (Summer 2027)",
 "company": "Robinhood",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -172,6 +172,23 @@
 "st": "seeded",
 "fh": "5048a3454953"
 },
+"1608de83c9787252": {
+"c": "cadence solutions",
+"t": "product management intern",
+"s": "summer-2027",
+"l": [
+"in usa"
+],
+"u": [
+"job-boards.greenhouse.io/solutions/jobs/4715294006"
+],
+"title": "Product Management Intern",
+"company": "Cadence Solutions",
+"fs": "2026-10-06",
+"ls": "2026-10-06",
+"st": "emailed",
+"fh": "5048a3454953"
+},
 "1695e803339d3bdb": {
 "c": "american express",
 "t": "digital product management intern enterprise technology services",
@@ -185,7 +202,7 @@
 "title": "Digital Product Management Intern - Enterprise Technology Services",
 "company": "American Express",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -202,7 +219,7 @@
 "title": "Sales Business Analyst Intern",
 "company": "Tokyo Electron",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -219,7 +236,7 @@
 "title": "Product Analyst Intern - Housing",
 "company": "Assurant",
 "fs": "2026-10-01",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -236,7 +253,7 @@
 "title": "Product Manager Intern",
 "company": "Upbring",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -270,7 +287,7 @@
 "title": "Product Management Intern - Product Management",
 "company": "BNY",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -323,7 +340,7 @@
 "title": "Accounting Intern",
 "company": "Coinbase",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -340,7 +357,7 @@
 "title": "Finance - Planning Intern",
 "company": "Base Power",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -374,7 +391,7 @@
 "title": "Business Operations Intern, Commercial Partnerships",
 "company": "Base Power",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -391,7 +408,7 @@
 "title": "Data Science Intern - Finance",
 "company": "American Express",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -408,7 +425,7 @@
 "title": "Product Management Intern",
 "company": "Atlassian",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -425,7 +442,7 @@
 "title": "2027 Intern - Sales Velocity Analyst",
 "company": "Adobe",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -443,7 +460,7 @@
 "title": "2027 Investment Services Internship - PIPELINE",
 "company": "Point72",
 "fs": "2026-09-21",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -507,7 +524,7 @@
 "title": "Product Manager Intern",
 "company": "Microsoft",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -524,7 +541,7 @@
 "title": "Deployments Operations Intern",
 "company": "Base Power",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -541,7 +558,7 @@
 "title": "Business Operations Intern, Commercial Ops & Analytics",
 "company": "Base Power",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -581,7 +598,7 @@
 "title": "Market Data Product Management Intern",
 "company": "Tradeweb",
 "fs": "2026-09-25",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -598,7 +615,7 @@
 "title": "Crypto Partnership Intern (Summer 2027)",
 "company": "Robinhood",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -651,7 +668,7 @@
 "title": "Product Management Intern - Artificial Intelligence Product Management",
 "company": "Zimmer Biomet Holdings",
 "fs": "2026-09-22",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -688,7 +705,7 @@
 "title": "2027 Summer Analyst Intern, Valuations & Opinions Group",
 "company": "Lincoln International",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -705,7 +722,7 @@
 "title": "Workforce and Rewards Summer Intern - Chicago - College Program 2027",
 "company": "Marsh McLennan (Oliver Wyman, Mercer)",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -749,7 +766,7 @@
 "title": "Markets - Sales and Trading, Summer Analyst, New York City - US, 2027",
 "company": "Citi",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -768,7 +785,7 @@
 "title": "2027 Intern - Adobe Sales Academy BDR",
 "company": "Adobe",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -785,7 +802,41 @@
 "title": "ESPN Marketing Internships, New York City, Spring 2027",
 "company": "Disney",
 "fs": "2026-10-05",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
+"st": "emailed",
+"fh": "5048a3454953"
+},
+"4f088a94e001695d": {
+"c": "kyndryl",
+"t": "marketing intern marketing analytics",
+"s": "summer-2027",
+"l": [
+"new york"
+],
+"u": [
+"kyndryl.wd5.myworkdayjobs.com/kyndrylearlycareers/job/new-york-ny-usa/marketing-internship--marketing-analytics_r-69404"
+],
+"title": "Marketing Intern - Marketing Analytics",
+"company": "Kyndryl",
+"fs": "2026-10-06",
+"ls": "2026-10-06",
+"st": "emailed",
+"fh": "5048a3454953"
+},
+"5547692f2cecec96": {
+"c": "west monroe",
+"t": "data and analytics consulting intern",
+"s": null,
+"l": [
+"chicago"
+],
+"u": [
+"westmonroe.com/careers/job-details-students?gh_jid=6167540004"
+],
+"title": "Data & Analytics Consulting Intern",
+"company": "West Monroe",
+"fs": "2026-10-06",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -817,7 +868,7 @@
 "title": "Markets - Quantitative Analysis, Summer Analyst - New York City - US, 2027",
 "company": "Citi",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -834,7 +885,7 @@
 "title": "Business Controller Intern",
 "company": "Coinbase",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -851,7 +902,7 @@
 "title": "2027 Intern - Enterprise Architecture Analyst",
 "company": "Adobe",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -866,7 +917,7 @@
 "title": "Functions - Chief Operating Office, Summer Analyst, Tampa - USA, 2027",
 "company": "Citi",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -883,7 +934,7 @@
 "title": "Data Science Intern - Strategy, Execution, & Analytics - Platform",
 "company": "Coinbase",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -900,7 +951,7 @@
 "title": "Business Analyst Project Intern",
 "company": "TikTok",
 "fs": "2026-10-05",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -917,7 +968,7 @@
 "title": "Product Management Intern",
 "company": "American Express",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -934,7 +985,24 @@
 "title": "Product Manager (HR Technology) Intern",
 "company": "Coinbase",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
+"st": "emailed",
+"fh": "5048a3454953"
+},
+"70f547ef72d3deb6": {
+"c": "west monroe",
+"t": "product management consulting intern",
+"s": null,
+"l": [
+"san francisco"
+],
+"u": [
+"westmonroe.com/careers/job-details-students?gh_jid=6172718004"
+],
+"title": "Product Management Consulting Intern",
+"company": "West Monroe",
+"fs": "2026-10-06",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -951,7 +1019,7 @@
 "title": "Product Marketing Management Intern - Systems Strategy & Operations",
 "company": "TikTok",
 "fs": "2026-10-02",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -987,7 +1055,7 @@
 "title": "Oracle NetSuite Consulting Intern- Summer 2027",
 "company": "RSM",
 "fs": "2026-09-18",
-"ls": "2026-10-02",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1004,7 +1072,7 @@
 "title": "Oracle NetSuite Consulting Intern- Summer 2027",
 "company": "RSM",
 "fs": "2026-09-18",
-"ls": "2026-10-02",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1039,7 +1107,7 @@
 "title": "Corporate & Institutional Banking Undergraduate Intern – Agency Finance",
 "company": "PNC",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1056,7 +1124,7 @@
 "title": "Brokerage Operations Intern (Summer 2027)",
 "company": "Robinhood",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1073,7 +1141,7 @@
 "title": "Sales Intern",
 "company": "Base Power",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1090,7 +1158,7 @@
 "title": "Graduate Intern, Economics, Chief Investment Office (CIO) (Non-Campus)",
 "company": "PNC",
 "fs": "2026-10-01",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1107,7 +1175,7 @@
 "title": "Credit Risk Intern",
 "company": "Coinbase",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1141,7 +1209,7 @@
 "title": "Product Management Intern - Global Commercial Services",
 "company": "American Express",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1175,7 +1243,24 @@
 "title": "Systematic Data Strategy Intern",
 "company": "Brevan Howard",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
+"st": "emailed",
+"fh": "5048a3454953"
+},
+"857286ee301276e2": {
+"c": "west monroe",
+"t": "labs asset foundry consulting intern",
+"s": null,
+"l": [
+"chicago"
+],
+"u": [
+"westmonroe.com/careers/job-details-students?gh_jid=6169873004"
+],
+"title": "Labs Asset Foundry Consulting Intern",
+"company": "West Monroe",
+"fs": "2026-10-06",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1193,7 +1278,7 @@
 "title": "Product Owner Intern - Product Management",
 "company": "AspenTech",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1230,7 +1315,7 @@
 "title": "Intern - Life Sciences Advisory, Health Segment - Campus 2027",
 "company": "Guidehouse",
 "fs": "2026-09-22",
-"ls": "2026-09-22",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1245,7 +1330,7 @@
 "title": "Banking - Commercial Banking - Natural Resources & Energy, Summer Analyst, Houston - US, 2027",
 "company": "Citi",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1262,7 +1347,24 @@
 "title": "Marketing Intern",
 "company": "Base Power",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
+"st": "emailed",
+"fh": "5048a3454953"
+},
+"90631962ba014e98": {
+"c": "iex",
+"t": "options strategy intern",
+"s": null,
+"l": [
+"new york"
+],
+"u": [
+"job-boards.greenhouse.io/iex-interns/jobs/8171353"
+],
+"title": "Options Strategy Intern",
+"company": "IEX",
+"fs": "2026-10-06",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1279,7 +1381,7 @@
 "title": "Product Manager Intern",
 "company": "Dedalus Labs",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1314,7 +1416,7 @@
 "title": "Strategy and Product",
 "company": "Jane Street",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1365,7 +1467,7 @@
 "title": "Technology Product Analyst Intern",
 "company": "Copart",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1382,7 +1484,7 @@
 "title": "Growth Intern",
 "company": "Base Power",
 "fs": "2026-09-21",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1401,7 +1503,7 @@
 "title": "Corporate & Institutional Banking Undergraduate Intern – Business Credit",
 "company": "PNC",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1452,7 +1554,7 @@
 "title": "Quantitative Trading Summer Analyst - Global Markets",
 "company": "Royal Bank of Canada",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1511,7 +1613,7 @@
 "title": "Marketing Intern - AI Tooling for Marketing Efficiency",
 "company": "Intuit",
 "fs": "2026-10-05",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1571,7 +1673,7 @@
 "title": "Data Analytics Developer Intern - Consulting Practice",
 "company": "Crowe",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1588,7 +1690,7 @@
 "title": "Provider Account Management Intern - Summer 2027",
 "company": "McKesson",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1605,7 +1707,7 @@
 "title": "Special Projects Developer Intern",
 "company": "Walleye Capital",
 "fs": "2026-10-02",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1622,7 +1724,7 @@
 "title": "Marketing Data Science Intern",
 "company": "Dow Jones",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1641,7 +1743,7 @@
 "title": "Product Management Intern (Summer 2027)",
 "company": "Databricks",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1692,7 +1794,7 @@
 "title": "Marketing Analyst Intern",
 "company": "Parkdepot",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1727,7 +1829,7 @@
 "title": "Product Management Intern",
 "company": "Cox",
 "fs": "2026-10-05",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1761,8 +1863,25 @@
 "title": "2027 Systematic COO Intern",
 "company": "Schonfeld",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
+"fh": "5048a3454953"
+},
+"c6da4d3c479f3b1b": {
+"c": "iex",
+"t": "marketing analytics intern",
+"s": null,
+"l": [
+"new york"
+],
+"u": [
+"job-boards.greenhouse.io/iex-interns/jobs/8173636"
+],
+"title": "Marketing Analytics Intern",
+"company": "IEX",
+"fs": "2026-10-06",
+"ls": "2026-10-06",
+"st": "emailed",
 "fh": "5048a3454953"
 },
 "c8b3da3777bc45d3": {
@@ -1844,7 +1963,7 @@
 "title": "Working in Technology (WiT) Application Development - Summer 2027",
 "company": "William Blair",
 "fs": "2026-09-23",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1861,7 +1980,7 @@
 "title": "Product Manager Intern - Tax - Other Tax",
 "company": "Ernst & Young",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1895,7 +2014,7 @@
 "title": "Graduate Intern, Portfolio Management and Analytics, Chief Investment Office (CIO) (Non-Campus)",
 "company": "PNC",
 "fs": "2026-10-02",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1912,7 +2031,7 @@
 "title": "Summer Analyst Intern - Americas - Investment Banking Quantitative Strats",
 "company": "Goldman Sachs",
 "fs": "2026-09-25",
-"ls": "2026-09-30",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1929,7 +2048,7 @@
 "title": "Oracle NetSuite Consulting Intern- Summer 2027",
 "company": "RSM",
 "fs": "2026-09-18",
-"ls": "2026-10-02",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1946,7 +2065,7 @@
 "title": "Summer Intern, Rising Talent in Finance (RTiF) Internal Audit- New York, 2027",
 "company": "Marsh McLennan (Oliver Wyman, Mercer)",
 "fs": "2026-09-21",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -1980,7 +2099,7 @@
 "title": "Risk and Compliance Intern",
 "company": "Northern Trust",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -1999,7 +2118,7 @@
 "title": "Quantitative Research Intern - Risk and Treasury",
 "company": "JP Morgan Chase",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -2017,7 +2136,7 @@
 "title": "Product Management Intern",
 "company": "UL Solutions",
 "fs": "2026-09-30",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2040,7 +2159,7 @@
 "title": "Forward Deployed Operations Intern",
 "company": "Fenwick & West",
 "fs": "2026-09-24",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2058,7 +2177,7 @@
 "title": "GTM Engineer Intern",
 "company": "Ether.fi",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -2093,7 +2212,7 @@
 "title": "Finance Operations Intern",
 "company": "Coinbase",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2110,7 +2229,7 @@
 "title": "Associate Product Manager Intern",
 "company": "Coinbase",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2127,7 +2246,7 @@
 "title": "Accounting Intern",
 "company": "Base Power",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2144,7 +2263,7 @@
 "title": "Quantitative Finance Associate Intern",
 "company": "Barclays",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -2161,8 +2280,25 @@
 "title": "Accounting Intern (Summer 2027)",
 "company": "Robinhood",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
+"fh": "5048a3454953"
+},
+"e65b4854d7ac7300": {
+"c": "kkr",
+"t": "analyst intern insurance risk quantitative asset liability management liquidity risk",
+"s": "summer-2027",
+"l": [
+"new york"
+],
+"u": [
+"kkr.com/careers/student-careers/student-career-opportunities/post?gh_jid=6200868004"
+],
+"title": "Summer Analyst Intern - Insurance Risk - Quantitative Asset Liability Management/Liquidity Risk",
+"company": "KKR",
+"fs": "2026-10-06",
+"ls": "2026-10-06",
+"st": "emailed",
 "fh": "5048a3454953"
 },
 "e6cd64f06634ad25": {
@@ -2182,6 +2318,23 @@
 "st": "emailed",
 "fh": "5048a3454953"
 },
+"e72fe29f72634f06": {
+"c": "kkr",
+"t": "analyst intern insurance risk data science",
+"s": "summer-2027",
+"l": [
+"new york"
+],
+"u": [
+"kkr.com/careers/student-careers/student-career-opportunities/post?gh_jid=6200944004"
+],
+"title": "Summer Analyst Intern - Insurance Risk - Data Science",
+"company": "KKR",
+"fs": "2026-10-06",
+"ls": "2026-10-06",
+"st": "emailed",
+"fh": "5048a3454953"
+},
 "e856b420a0588179": {
 "c": "crowe",
 "t": "data consultant intern",
@@ -2195,7 +2348,7 @@
 "title": "Data Consultant Intern",
 "company": "Crowe",
 "fs": "2026-10-05",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2212,7 +2365,7 @@
 "title": "Product Management Intern - Global Merchant & Network Services",
 "company": "American Express",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
@@ -2229,7 +2382,7 @@
 "title": "Futures & Prediction Market Operations Intern (Summer 2027)",
 "company": "Robinhood",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2246,7 +2399,7 @@
 "title": "Strategic Finance Intern",
 "company": "Coinbase",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2271,7 +2424,7 @@
 "title": "Corporate & Institutional Banking Undergraduate Intern – Treasury Management",
 "company": "PNC",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2288,7 +2441,7 @@
 "title": "ABC News SEO Intern, Spring 2027",
 "company": "Disney",
 "fs": "2026-10-01",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2305,8 +2458,25 @@
 "title": "Digital Marketing Intern - Technical AI & Automation",
 "company": "Eulerity",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
+"fh": "5048a3454953"
+},
+"f1377b0c0b2195fa": {
+"c": "west monroe",
+"t": "data and analytics consulting intern data and analytics team technology and experience techex practice",
+"s": null,
+"l": [
+"san francisco"
+],
+"u": [
+"westmonroe.com/careers/job-details-students?gh_jid=6167569004"
+],
+"title": "Data & Analytics Consulting Intern - Data & Analytics team - Technology & Experience (TechEx) Practice",
+"company": "West Monroe",
+"fs": "2026-10-06",
+"ls": "2026-10-06",
+"st": "emailed",
 "fh": "5048a3454953"
 },
 "f18d501be87b0453": {
@@ -2339,7 +2509,7 @@
 "title": "Investment Data & Technology Intern - Central Solutions",
 "company": "Cerity Partners",
 "fs": "2026-09-28",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2356,7 +2526,7 @@
 "title": "Finance - Analytics Intern",
 "company": "Base Power",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2373,7 +2543,7 @@
 "title": "Data & Analytics Consultant Intern - Summer 2027",
 "company": "Resultant",
 "fs": "2026-09-22",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2394,7 +2564,7 @@
 "title": "Investment Analyst Intern, Point72 Academy",
 "company": "Point72",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2412,7 +2582,7 @@
 "title": "Product Management Intern - Digital Product",
 "company": "General Motors",
 "fs": "2026-09-21",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "emailed",
 "fh": "5048a3454953"
 },
@@ -2429,7 +2599,7 @@
 "title": "Trading Automation and Operations Intern",
 "company": "Optiver",
 "fs": "2026-09-18",
-"ls": "2026-10-05",
+"ls": "2026-10-06",
 "st": "seeded",
 "fh": "5048a3454953"
 },
